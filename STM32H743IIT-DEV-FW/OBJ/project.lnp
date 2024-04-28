@@ -64,7 +64,7 @@
 "..\obj\usmart_str.o"
 "..\obj\usmart_config.o"
 "..\DSPLIB\arm_cortexM7lfdp_math.lib"
---strict --scatter "..\OBJ\project.sct"
+--library_type=microlib --strict --scatter "..\OBJ\project.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "..\OBJ\project.map" -o ..\OBJ\project.axf
