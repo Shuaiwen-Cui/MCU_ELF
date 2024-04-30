@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.md": "markdown",
+        "arm_math.h": "c"
+    }
+}
